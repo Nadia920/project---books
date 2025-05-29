@@ -1,0 +1,48 @@
+
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background: #ccc;
+}
+
+.amount_elements {
+    width: 50px;
+    height: 30px;
+}
+
+.modal-content {
+    padding: 10px;
+}
+
+.paginator li {
+    text-decoration: none;
+    transition: .4s;
+
+}
+
+.js-page {
+    padding: 8px 16px;
+    color: black;
+}
+
+.js-page.active {
+    background: rgb(7, 186, 226);
+}
+
+.js-page:hover:not(.active) {
+    background: white;
+}
+
+.number_elements {
+    margin: 10px 0 0 10px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.number_elements p {
+    margin-bottom: 0;
+}
+
+.number_elements_select {
+    margin-top: 10px;
+}
